@@ -36,7 +36,7 @@
 								 x="0"
 								 id="use29"
 								 transform="matrix(0.70710678, 0.70710678, -0.70710678, 0.70710678, 0, 0)"
-								 href="#svgbar" />
+								 xlink:href="#svgbar" />
 							<use
 								 height="100%"
 								 width="100%"
@@ -44,7 +44,7 @@
 								 x="0"
 								 id="use31"
 								 transform="matrix(0, 1, -1, 0, 0, 0)"
-								 href="#svgbar" />
+								 xlink:href="#svgbar" />
 							<use
 								 height="100%"
 								 width="100%"
@@ -52,7 +52,7 @@
 								 x="0"
 								 id="use33"
 								 transform="matrix(-0.70710678, 0.70710678, -0.70710678, -0.70710678, 0, 0)"
-								 href="#svgbar" />
+								 xlink:href="#svgbar" />
 						</g>
 					</g>
 					<use
@@ -61,7 +61,7 @@
 						 y="0"
 						 x="0"
 						 id="use35"
-						 href="#svgstar" />
+						 xlink:href="#svgstar" />
 				</g>
 			</g>
 		</g>

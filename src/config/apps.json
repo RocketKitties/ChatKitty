@@ -2,7 +2,7 @@
 	"account_manager": {
 		"name": "Accounts",
 		"icon": "fa fa-users",
-		"category": "configuration",
+		"category": "system",
 		"platform": "all",
 		"access": "admin",
 		"disabled": false,
@@ -10,6 +10,7 @@
 		"args": true,
 		"color": "grey"
 	},
+	
 	"app_launcher": {
 		"name": "Apps",
 		"icon": "fa fa-rocket",
@@ -21,6 +22,7 @@
 		"args": false,
 		"color": "orange"
 	},
+	
 	"audio_player": {
 		"name": "Audio",
 		"icon": "fa fa-volume-up",
@@ -28,7 +30,7 @@
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": false,
 		"color": "plum",
 		"favorites": {
@@ -36,6 +38,7 @@
 			"#2": "Audio/"
 		}
 	},
+
 	"calculator": {
 		"name": "Calculator",
 		"icon": "fa fa-calculator",
@@ -43,10 +46,11 @@
 		"platform": "all",
 		"access": "all",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": false,
-		"color": "green"
+		"color": "lime"
 	},
+
 	"calendar": {
 		"name": "Calendar",
 		"icon": "fa fa-calendar-alt",
@@ -58,6 +62,7 @@
 		"args": false,
 		"color": "cyan"
 	},
+
 	"chat_browser": {
 		"name": "Chats",
 		"icon": "fa fa-comments",
@@ -69,12 +74,12 @@
 		"args": false,
 		"color": "blue"
 	},
+
 	"chat_viewer": {
 		"name": "Messages",
-		"icon": "fa fa-comment",
-		"category": "social",
+		"icon": "fa fa-comments",
 		"platform": "all",
-		"access": "user",
+		"category": "social",
 		"disabled": false,
 		"hidden": false,
 		"args": false,
@@ -82,6 +87,7 @@
 		"new_chat_invitation_message": "Hi. Let's chat!",
 		"join_chat_invitation_message": "Hi. You're invited to join a chat!"
 	},
+	
 	"clock": {
 		"name": "Clock",
 		"icon": "fa fa-clock",
@@ -93,6 +99,7 @@
 		"args": false,
 		"color": "cyan"
 	},
+
 	"code_editor": {
 		"name": "Code",
 		"icon": "fa fa-code",
@@ -100,13 +107,11 @@
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": true,
-		"color": "teal",
-		"favorites": {
-			"#1": "Code/"
-		}
+		"color": "teal"
 	},
+
 	"communicator": {
 		"name": "Conversations",
 		"icon": "fa fa-message",
@@ -114,10 +119,18 @@
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": false,
-		"color": "blue"
+		"color": "blue",
+		"defaults": {
+			"topic": {
+				"name": "What's New",
+				"description": "This is the default topic.",
+				"required": true
+			}
+		}
 	},
+
 	"connection_manager": {
 		"name": "Connections",
 		"icon": "fa fa-user-friends",
@@ -128,20 +141,21 @@
 		"hidden": false,
 		"args": false,
 		"color": "blue",
-		"group_icon_selector_path": "/Shared/Pictures",
-		"connection_message": "Hi there!"
+		"group_icon_selector_path": "/Shared/Pictures"
 	},
+	
 	"contact_editor": {
 		"name": "Contacts",
 		"icon": "fa fa-address-book",
-		"category": "productivity",
+		"category": "utility",
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": false,
 		"color": "raspberry"
 	},
+
 	"decibel_meter": {
 		"name": "Decibels",
 		"icon": "fa fa-volume-up",
@@ -149,10 +163,11 @@
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": false,
 		"color": "plum"
 	},
+
 	"file_browser": {
 		"name": "Files",
 		"icon": "fa fa-folder",
@@ -177,10 +192,11 @@
 		"max_thumbnail_svg_file_size": 1000000,
 		"share_invitation_message": "Check this out!"
 	},
+
 	"help_viewer": {
 		"name": "Help",
 		"icon": "fa fa-question-circle",
-		"category": "system",
+		"category": "utility",
 		"platform": "all",
 		"access": "all",
 		"disabled": false,
@@ -188,6 +204,7 @@
 		"args": true,
 		"color": "red"
 	},
+
 	"image_viewer": {
 		"name": "Images",
 		"icon": "fa fa-image",
@@ -195,13 +212,11 @@
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": true,
-		"color": "gold",
-		"favorites": {
-			"#1": "Pictures/"
-		}
+		"color": "gold"
 	},
+
 	"mail_reader": {
 		"name": "Mail",
 		"icon": "fa fa-envelope",
@@ -213,6 +228,7 @@
 		"args": false,
 		"color": "cyan"
 	},
+
 	"map_viewer": {
 		"name": "Maps",
 		"icon": "fa fa-map",
@@ -220,7 +236,7 @@
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": false,
 		"color": "green",
 		"markers": {
@@ -234,6 +250,7 @@
 		},
 		"maps_directory": "/Shared/Documents/Maps/"
 	},
+
 	"notification_center": {
 		"name": "Notifications",
 		"icon": "fa fa-exclamation-triangle",
@@ -245,18 +262,9 @@
 		"args": false,
 		"color": "gold",
 		"sizes": {
-			"small": [
-				320,
-				480
-			],
-			"medium": [
-				400,
-				600
-			],
-			"large": [
-				600,
-				900
-			]
+			"small": [320, 480],
+			"medium": [400, 600],
+			"large": [600, 900]
 		},
 		"channels": {
 			"connect_invitations": [],
@@ -268,17 +276,19 @@
 			"likes": []
 		}
 	},
+
 	"pdf_viewer": {
 		"name": "PDF",
 		"icon": "fa fa-file-pdf",
-		"category": "productivity",
+		"category": "multimedia",
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": true,
 		"color": "white"
 	},
+
 	"post_viewer": {
 		"name": "Comments",
 		"icon": "fa fa-newspaper",
@@ -290,6 +300,7 @@
 		"args": false,
 		"color": "blue"
 	},
+
 	"profile_browser": {
 		"name": "People",
 		"icon": "fa fa-users",
@@ -302,6 +313,7 @@
 		"color": "blue",
 		"invitation_message": "I'd like to invite you to use this platform, which I use to store, manage, and share my data!"
 	},
+
 	"profile_viewer": {
 		"name": "Profile",
 		"icon": "fa fa-user-circle",
@@ -315,6 +327,7 @@
 		"avatars_directory": "/Shared/Pictures/Avatars",
 		"cover_photos_directory": "/Shared/Pictures/Desktops"
 	},
+
 	"project_browser": {
 		"name": "Projects",
 		"icon": "fa fa-clipboard",
@@ -322,10 +335,11 @@
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": true,
 		"color": "brown"
 	},
+
 	"project_viewer": {
 		"name": "Tasks",
 		"icon": "fa fa-check",
@@ -333,7 +347,7 @@
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": false,
 		"color": "green",
 		"defaults": {
@@ -346,21 +360,23 @@
 		"project_icon_selector_path": "/Shared/Pictures",
 		"project_invitation_message": "I thought you might be interested in this!"
 	},
+
 	"search_viewer": {
 		"name": "Search",
 		"icon": "fa fa-search",
-		"category": "system",
+		"category": "utility",
 		"platform": "all",
 		"access": "all",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": false,
 		"color": "cyan"
 	},
+
 	"settings_browser": {
 		"name": "Settings",
 		"icon": "fa fa-cogs",
-		"category": "configuration",
+		"category": "system",
 		"platform": "all",
 		"access": "all",
 		"disabled": false,
@@ -368,29 +384,32 @@
 		"args": false,
 		"color": "grey"
 	},
+
 	"settings_manager": {
 		"name": "Settings Manager",
 		"icon": "fa fa-cog",
-		"category": "configuration",
+		"category": "system",
 		"platform": "all",
 		"access": "all",
-		"disabled": false,
+		"disabled": true,
 		"hidden": true,
 		"args": false,
 		"color": "grey",
 		"upgrade_account_url": "#contact"
 	},
+
 	"terminal": {
 		"name": "Terminal",
 		"icon": "fa fa-terminal",
 		"category": "system",
-		"platform": "admiin",
-		"access": "all",
-		"disabled": false,
-		"hidden": false,
+		"platform": "all",
+		"access": "admin",
+		"disabled": true,
+		"hidden": true,
 		"args": false,
 		"color": "green"
 	},
+
 	"text_editor": {
 		"name": "Text",
 		"icon": "fa fa-file-alt",
@@ -398,14 +417,15 @@
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": true,
 		"color": "teal"
 	},
+
 	"theme_manager": {
 		"name": "Themes",
 		"icon": "fa fa-paint-roller",
-		"category": "configuration",
+		"category": "system",
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
@@ -413,58 +433,35 @@
 		"args": false,
 		"color": "grey",
 		"colors": [
-			"red",
-			"orange",
-			"gold",
-			"yellow",
-			"green",
-			"teal",
-			"aqua",
-			"cyan",
-			"blue",
-			"violet",
-			"magenta",
-			"brown",
-			"grey"
+			"red", "orange", "gold", "yellow", "green", "teal", "aqua", "cyan", "blue", "violet",
+			"magenta", "brown", "grey"
 		],
 		"backgrounds_directory": "/Shared/Pictures/Desktops"
 	},
+
 	"theme_picker": {
 		"name": "Theme Picker",
 		"icon": "fa fa-mouse-pointer",
-		"category": "configuration",
 		"platform": "mobile",
-		"access": "user",
+		"category": "system",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": false,
-		"color": "grey",
-		"themes": [
-			"/Shared/Documents/Themes/Common/Colorful.thme",
-			"/Shared/Documents/Themes/Common/Dark.thme",
-			"/Shared/Documents/Themes/Common/Light.thme",
-			"/Shared/Documents/Themes/Common/Standard.thme",
-			"/Shared/Documents/Themes/Mac/System 1X.thme",
-			"/Shared/Documents/Themes/Mac/X Monterey.thme",
-			"/Shared/Documents/Themes/Linux/Linux Penguin.thme",
-			"/Shared/Documents/Themes/Linux/Ubuntu Beaver.thme",
-			"/Shared/Documents/Themes/Windows/Windows XP.thme",
-			"/Shared/Documents/Themes/Windows/Windows 10.thme",
-			"/Shared/Documents/Themes/Windows/Windows 11.thme",
-			"/Shared/Documents/Themes/Windows/Windows 11 Dark.thme"
-		]
+		"color": "grey"
 	},
+
 	"timer": {
 		"name": "Timer",
 		"icon": "fa fa-hourglass",
 		"category": "utility",
 		"platform": "all",
-		"access": "user",
+		"access": "all",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": false,
 		"color": "cyan"
 	},
+
 	"topic_browser": {
 		"name": "Topics",
 		"icon": "fa fa-hashtag",
@@ -476,6 +473,7 @@
 		"args": true,
 		"color": "blue"
 	},
+
 	"topic_viewer": {
 		"name": "Discussions",
 		"icon": "fa fa-hashtag",
@@ -496,6 +494,7 @@
 		"topic_icon_selector_path": "/Shared/Pictures",
 		"topic_invitation_message": "I thought you might be interested in this!"
 	},
+
 	"tune_editor": {
 		"name": "Tunes",
 		"icon": "fa fa-music",
@@ -503,10 +502,11 @@
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": true,
 		"color": "magenta"
 	},
+
 	"video_player": {
 		"name": "Videos",
 		"icon": "fa fa-video",
@@ -514,10 +514,11 @@
 		"platform": "all",
 		"access": "user",
 		"disabled": false,
-		"hidden": false,
+		"hidden": true,
 		"args": true,
 		"color": "violet"
 	},
+
 	"web_browser": {
 		"name": "Web",
 		"icon": "fa fa-cloud",

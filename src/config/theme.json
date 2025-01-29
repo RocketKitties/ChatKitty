@@ -12,8 +12,7 @@
 		},
 
 		"color_scheme": "colored",
-		"highlight_color": "blue",
-		"accent_color": "none",
+		"highlight_color": "hsl(220, 50%, 50%)",
 		"material": "none",
 		"transparency": "translucent",
 
@@ -25,7 +24,7 @@
 		"icon_material": "auto",
 		"icon_corners": "auto",
 		"icon_tilt": "none",
-		"icon_tint": "none",
+		"icon_tint": "blue",
 		"icon_background": true,
 
 		"icon_select_effect": "none",
@@ -34,7 +33,7 @@
 		"icon_unhighlight_effect": "none",
 		"icon_open_effect": "wobble",
 
-		"system_font": "Proxima Nova",
+		"system_font": "Bryant",
 		"title_font": null,
 		"label_font":  null,
 		"heading_font": null,
@@ -60,7 +59,7 @@
 
 		"background_image": null,
 		"background_size": "tile",
-		"background_color": "grey",
+		"background_color": "auto",
 		"background_repeats": 5,
 
 		"desktop_sidebar_transparency": "transparent",
@@ -109,7 +108,7 @@
 		"tab_close_buttons": true,
 
 		"slider_material": "auto",
-		"slider_corners": "round",
+		"slider_corners": "auto",
 		"slider_handle_width": "medium",
 
 		"splitter_width": "narrow",
@@ -118,7 +117,7 @@
 
 		"scrollbar_material": "auto",
 		"scrollbar_width": "medium",
-		"scrollbar_corners": "round"
+		"scrollbar_corners": "auto"
 	},
 
 	"dialogs": {
@@ -153,9 +152,9 @@
 	},
 	
 	"sounds": {
-		"login": "magic",
+		"login": "startup",
 		"launch": null,
-		"logout": "chimes",
+		"logout": "end-transmission",
 
 		"cut": "scissors",
 		"copy": "double-click",
@@ -182,11 +181,11 @@
 		"add": "double-pop",
 		"remove": "pop",	
 		"send": "wiff",
-		"receive": "pling",		
+		"receive": "pling",	
 
-		"alert": "ting",	
+		"alert": "tribble",	
 		"notify": "bosuns-whistle",	
-		"warning": "cluck",
+		"warning": "angry-tribble",
 		"error": "pling",
 
 		"zoom-in": "whoosh",

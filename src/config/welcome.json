@@ -2,7 +2,7 @@
 	"icon": "fa fa-hand-paper",
 	"title": "Welcome!",
 	"greeting": "Welcome to <%= application.name %>!",
-	"message": "We hope that you enjoy using <%= application.name %> to store, manage, and share your data. ",
+	"message": "We hope that you enjoy using <%= application.name %> to communicate with your friends, family, or colleagues. ",
 	"delay": 3000,
 
 	"options": {

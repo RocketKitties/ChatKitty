@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enable-background="new 0 0 48 48">
+<svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enable-background="new 0 0 48 48">
 	<defs>
 		<style>
 			.gradient1{fill:url(#linear-gradient);}
@@ -6,7 +6,6 @@
 		<linearGradient id="linear-gradient" x1="0" y1="20" x2="0" y2="50" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="lightgrey"/><stop offset="1" stop-color="grey"/>
 		</linearGradient>
 	</defs>
-
 	<g class="speaker">
 		<path fill="darkgrey" d="M14,32H7c-1.1,0-2-0.9-2-2V18c0-1.1,0.9-2,2-2h7V32z"/>
 		<polygon fill="lightgrey" points="26,42 14,32 14,16 26,6" class="gradient1" />
