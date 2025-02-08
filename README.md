@@ -34,19 +34,19 @@ Desktop
 
 ## Live Demo
 
-You can create an account and explore the features and benefits of the platform at [www.chatkitty.org](https://www.chatkitty.org).
+You can create an account and explore the features and benefits of the platform at [chatkitty.org](https://chatkitty.org).
 
 ## Installation
 
-Please follow the instructions in [www.chatkitty.org/#installation](https://www.chatkitty.org/#installation) to install the software on your computer or web server.
+Please follow the instructions in [www.chatkitty.org/#installation](https://chatkitty.org/#installation) to install the software on your computer or web server.
 
 ## Instructions
 
-See the [Sharedigm User Guide](https://www.sharedigm.com/#help) for instructions on how to use the platform.
+See the [Sharedigm User Guide](https://sharedigm.com/#help) for instructions on how to use the platform.
 
 ## License
 
-Distributed under the IndieSource License which allows unrestricted use of the software except by very large corporations. See [LICENSE.md](LICENSE.md) for more information.
+Distributed under the <a href="https://indiesource.org/">IndieSource License</a> which allows unrestricted use of the software except by very large corporations. See [LICENSE.md](LICENSE.md) for more information.
 
 ## Contact
 
