@@ -38,11 +38,11 @@ You can create an account and explore the features and benefits of the platform 
 
 ## Installation
 
-Please follow the instructions in [www.chatkitty.org/#installation](https://chatkitty.org/#installation) to install the software on your computer or web server.
+Please follow the instructions in [chatkitty.org/#installation](https://chatkitty.org/#installation) to install the software on your computer or web server.
 
 ## Instructions
 
-See the [Sharedigm User Guide](https://sharedigm.com/#help) for instructions on how to use the platform.
+See the [ChatKitty User Guide](https://sharedigm.com/#help) for instructions on how to use the platform.
 
 ## License
 
