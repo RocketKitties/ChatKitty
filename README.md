@@ -42,7 +42,7 @@ Please follow the instructions in [chatkitty.org/#installation](https://chatkitt
 
 ## Instructions
 
-See the [ChatKitty User Guide](https://sharedigm.com/#help) for instructions on how to use the platform.
+See the [ChatKitty User Guide](https://chatkitty.org/#help) for instructions on how to use the platform.
 
 ## License
 
