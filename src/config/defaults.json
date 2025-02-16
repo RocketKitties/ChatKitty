@@ -54,7 +54,7 @@
 
 	"downloads": {
 		"production": {
-			"2025-01-22": "downloads/ChatKitty_2025-02-07.zip"
+			"2025-02-07": "downloads/ChatKitty_2025-02-07.zip"
 		},
 		"development": {
 			"GitHub": "https://github.com/RocketKitties/ChatKitty"
@@ -70,7 +70,7 @@
 	"settings": {
 		"enable_notifications": true,
 		"mute_sounds": false,
-		"volume": 5
+		"volume": 1
 	},
 
 	"sharing": {

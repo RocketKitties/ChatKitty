@@ -154,7 +154,7 @@
 	"sounds": {
 		"login": "startup",
 		"launch": null,
-		"logout": "end-transmission",
+		"logout": "chimes",
 
 		"cut": "scissors",
 		"copy": "double-click",
